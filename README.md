@@ -4,7 +4,7 @@
 
 * [Exercícios](https://github.com/matheusgbl/trybe/tree/master/trybe-exercises)
 
-* [Portfólio](https://github.com/matheusgbl/trybe/tree/master/porfolio/bloco_3/dia_1/src)
+* [Portfólio](https://github.com/matheusgbl/trybe/tree/exercises/3.1/bloco_3/dia_1/src)
 
 # Algumas das skills que serão desenvolvidas ao longo do curso
 
