@@ -1,4 +1,4 @@
-### Repositório com todos os exercícios desenvolvidos ao longo do curso da Trybe 🚀
+# Repositório com todos os exercícios desenvolvidos ao longo do curso da Trybe 🚀
 
 ## A Trybe é uma escola que te ensina a programar, a aprender e atrabalhar!
 
