@@ -1,9 +1,9 @@
 let a = 0;
 
 function retornaInfoSobreValor() {
-  if(a >= +1) {
+  if(a > 0) {
     return "positive";
-  } else if (a <= -1) {
+  } else if (a < 0) {
     return "negative";
   } else {
     return "zero";
