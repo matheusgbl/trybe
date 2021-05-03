@@ -9,3 +9,7 @@ document.body.appendChild(elementMainDiv);
 const elementCenterDiv = document.createElement('div');
 elementCenterDiv.className = 'center-content';
 elementMainDiv.appendChild(elementCenterDiv);
+
+const elementParagraph = document.createElement('p');
+elementParagraph.innerHTML = 'Alguma coisa aí.';
+elementCenterDiv.appendChild(elementParagraph);
