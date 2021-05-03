@@ -61,3 +61,6 @@ divRightContent.style.margin = 'auto';
 
 const divCenterContent = document.getElementsByClassName('center-content')[0];
 divCenterContent.style.backgroundColor = 'green';
+
+elementUnorderedList.lastChild.remove();
+elementUnorderedList.lastChild.remove();
