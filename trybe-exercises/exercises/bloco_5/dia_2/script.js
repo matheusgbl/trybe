@@ -1,3 +1,5 @@
+// PARTE 1
+
 const elementH1 = document.createElement('h1');
 elementH1.innerHTML = 'Exercício 5.2 - JavaScript';
 document.body.appendChild(elementH1);
@@ -42,3 +44,6 @@ for (let index = 1; index <= 3; index += 1) {
   elementH3.innerHTML = 'Brabo ' + index;
   elementMainDiv.appendChild(elementH3);
 }
+
+// PARTE 2
+elementH1.className = 'title';
