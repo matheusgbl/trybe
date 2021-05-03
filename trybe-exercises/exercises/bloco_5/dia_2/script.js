@@ -55,3 +55,6 @@ for (let index = 0; index < 3; index += 1) {
 
 const divLeftContent = document.getElementsByClassName('left-content')[0];
 elementMainDiv.removeChild(divLeftContent);
+
+const divRightContent = document.getElementsByClassName('right-content')[0];
+divRightContent.style.margin = 'auto';
