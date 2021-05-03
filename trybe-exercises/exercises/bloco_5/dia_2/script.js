@@ -52,3 +52,6 @@ const h3Elements = document.getElementsByTagName('h3');
 for (let index = 0; index < 3; index += 1) {
   h3Elements[index].className = 'description';
 }
+
+const divLeftContent = document.getElementsByClassName('left-content')[0];
+elementMainDiv.removeChild(divLeftContent);
