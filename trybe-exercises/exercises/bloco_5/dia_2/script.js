@@ -26,3 +26,13 @@ const elementImage = document.createElement('img');
 elementImage.src = 'https://picsum.photos/200'
 elementImage.className = 'small-image';
 elementLeftDiv.appendChild(elementImage);
+
+const elementUnorderedList = document.createElement('ul');
+let array = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete',
+'Oito', 'Nove', 'Dez'];
+for (let num in array) {
+  const elementLi = document.createElement('li');
+  elementLi.innerHTML = array[num];
+  elementUnorderedList.appendChild(elementLi);
+}
+elementRightDiv.appendChild(elementUnorderedList);
