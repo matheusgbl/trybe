@@ -58,3 +58,6 @@ elementMainDiv.removeChild(divLeftContent);
 
 const divRightContent = document.getElementsByClassName('right-content')[0];
 divRightContent.style.margin = 'auto';
+
+const divCenterContent = document.getElementsByClassName('center-content')[0];
+divCenterContent.style.backgroundColor = 'green';
