@@ -21,3 +21,8 @@ elementMainDiv.appendChild(elementLeftDiv);
 const elementRightDiv = document.createElement('div');
 elementRightDiv.className = 'right-content';
 elementMainDiv.appendChild(elementRightDiv);
+
+const elementImage = document.createElement('img');
+elementImage.src = 'https://picsum.photos/200'
+elementImage.className = 'small-image';
+elementLeftDiv.appendChild(elementImage);
