@@ -17,3 +17,7 @@ elementCenterDiv.appendChild(elementParagraph);
 const elementLeftDiv = document.createElement('div');
 elementLeftDiv.className = 'left-content';
 elementMainDiv.appendChild(elementLeftDiv);
+
+const elementRightDiv = document.createElement('div');
+elementRightDiv.className = 'right-content';
+elementMainDiv.appendChild(elementRightDiv);
