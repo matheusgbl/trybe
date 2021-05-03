@@ -13,3 +13,7 @@ elementMainDiv.appendChild(elementCenterDiv);
 const elementParagraph = document.createElement('p');
 elementParagraph.innerHTML = 'Alguma coisa aí.';
 elementCenterDiv.appendChild(elementParagraph);
+
+const elementLeftDiv = document.createElement('div');
+elementLeftDiv.className = 'left-content';
+elementMainDiv.appendChild(elementLeftDiv);
