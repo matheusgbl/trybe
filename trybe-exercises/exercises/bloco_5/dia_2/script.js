@@ -47,3 +47,8 @@ for (let index = 1; index <= 3; index += 1) {
 
 // PARTE 2
 elementH1.className = 'title';
+
+const h3Elements = document.getElementsByTagName('h3');
+for (let index = 0; index < 3; index += 1) {
+  h3Elements[index].className = 'description';
+}
