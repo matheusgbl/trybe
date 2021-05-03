@@ -36,3 +36,9 @@ for (let num in array) {
   elementUnorderedList.appendChild(elementLi);
 }
 elementRightDiv.appendChild(elementUnorderedList);
+
+for (let index = 1; index <= 3; index += 1) {
+  const elementH3 = document.createElement('h3');
+  elementH3.innerHTML = 'Brabo ' + index;
+  elementMainDiv.appendChild(elementH3);
+}
