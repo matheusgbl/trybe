@@ -1,6 +1,32 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+}
+
+p {
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: violet;
+    font-family: sans-serif;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  p {
+    padding: 0 5px;
+    line-height: 1.4rem;
+  }
 }
