@@ -112,6 +112,17 @@ function getSelectedOption(select) {
   return select.options[select.selectedIndex];
 }
 
+function selectValidation(select, name) {
+  let option = getSelectedOption(select);
+  let validation = inputs[name];
+
+  if(validation.required && (!option || option.disabled)) {
+    return false;
+  }
+
+  return true;
+}
+
 window.onload = function () {
   createStateOptions();
 }
