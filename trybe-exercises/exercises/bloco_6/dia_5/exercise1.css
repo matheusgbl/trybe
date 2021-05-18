@@ -24,3 +24,33 @@ figure {
   padding: .9rem;
   text-align: center;
 }
+
+figcaption {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 794px) {
+  body {
+    background-color: aqua;
+    margin: 25px 2rem;
+  }
+
+  figure {
+    float: left;
+    width: 40%;
+    margin-right: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  body {
+    background: purple;
+    margin: 25px 3.2rem;
+    max-width: 1120px;
+  }
+
+  figure {
+    width: 35%;
+    margin-right: 1.2rem;
+  }
+}
