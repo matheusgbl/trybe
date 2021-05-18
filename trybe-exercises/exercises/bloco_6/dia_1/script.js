@@ -264,6 +264,22 @@ function clearDivs(){
   }
 }
 
+function handleSubmit(event) {
+  event.preventDefault();
+
+  let validation = validateData();
+
+  clearDivs();
+  
+  if(validation.errorQtd === 0){
+    renderData();
+  } else {
+    validation.messages.unshift('Dados Inválidos')
+
+    renderErrorMessages(validation.messages)
+  }
+}
+
 window.onload = function () {
   createStateOptions();
 }
