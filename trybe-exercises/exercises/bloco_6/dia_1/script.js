@@ -250,6 +250,20 @@ function validateData(){
   }
 }
 
+function clearDivs(){
+  let errorDivs = document.querySelectorAll('.error');
+
+  for(div of errorDivs){
+    div.remove();
+  }
+
+  let dataDiv = document.querySelector('.data');
+
+  if(dataDiv){
+    dataDiv.remove();
+  }
+}
+
 window.onload = function () {
   createStateOptions();
 }
