@@ -280,6 +280,24 @@ function handleSubmit(event) {
   }
 }
 
+function clearFields() {
+  let formElements = document.querySelectorAll('input');
+  let textArea = document.querySelector('textarea')
+  let div = document.querySelectorAll('.div-curriculum');
+  for (let index = 0; index < formElements.length && index < div.length; index += 1) {
+    let userInput = formElements[index];
+    userInput.value = '';
+    textArea.value = '';
+    div[index].innerText = '';
+  }
+}
+
 window.onload = function () {
   createStateOptions();
+
+  let submitButton = document.querySelector('.submit-button');
+  submitButton.addEventListener('click', handleSubmit);
+
+  let clearButton = document.querySelector('.clear-button');
+  clearButton.addEventListener('click', clearFields)
 }
