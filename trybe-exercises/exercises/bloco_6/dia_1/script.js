@@ -166,6 +166,13 @@ function renderErrorMessages(messages){
   }
 }
 
+function defaultRendering(input){
+  let p = document.createElement('p');
+  p.innerText = input.value;
+
+  return p;
+}
+
 window.onload = function () {
   createStateOptions();
 }
