@@ -222,6 +222,34 @@ function renderData(){
   }
 }
 
+function validateData(){
+  let validationsList = {};
+
+  for(let inputName in inputs){
+    let isValid = validateInput(inputName);
+    validationsList[inputName] = isValid;
+  }
+  
+  let counter = 0;
+  let messages = [];
+
+  for(let index in validationsList){
+    if(validationsList[index] === false){
+      counter += 1;
+    }
+
+    if(validationsList[index].message){
+      counter += 1;
+      messages.push(validationsList[index].message);
+    }
+  }
+
+  return {
+    errorQtd: counter,
+    messages,
+  }
+}
+
 window.onload = function () {
   createStateOptions();
 }
