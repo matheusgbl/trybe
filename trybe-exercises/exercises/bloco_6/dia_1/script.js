@@ -152,6 +152,20 @@ function validateInput(inputName) {
   return validationStrategies.default(input, inputName);
 }
 
+function renderErrorMessages(messages){
+  let form = document.querySelector('#cv-form');
+  let messageDiv = document.createElement('div');
+  messageDiv.className = 'error';
+  form.prepend(messageDiv);
+
+  for(let message of messages){
+    let p = document.createElement('p');
+    p.innerText = message;
+
+    messageDiv.appendChild(p);
+  }
+}
+
 window.onload = function () {
   createStateOptions();
 }
