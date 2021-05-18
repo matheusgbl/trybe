@@ -123,6 +123,16 @@ function selectValidation(select, name) {
   return true;
 }
 
+function radioValidation(radio, name) {
+  let checked = document.querySelector(`[name=${name}]:checked`)
+
+  if(checked === null) {
+    return false;
+  }
+
+  return true;
+}
+
 window.onload = function () {
   createStateOptions();
 }
