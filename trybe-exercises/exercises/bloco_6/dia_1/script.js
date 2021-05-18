@@ -185,6 +185,14 @@ function radioRendering(input){
   return p;
 }
 
+function selectRendering(input){
+  let p = document.createElement('p');
+  let option = getSelectedOption(input)
+  p.innerText = option.value;
+  
+  return p;
+}
+
 window.onload = function () {
   createStateOptions();
 }
