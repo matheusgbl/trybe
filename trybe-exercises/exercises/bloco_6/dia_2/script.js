@@ -28,6 +28,18 @@ const picker = new Pikaday({
   }
 });
 
+const clearBtn = document.querySelector('.clear-button');
+function clearFields() {
+  const formElements = document.querySelectorAll('input');
+  const textArea = document.querySelector('textarea');
+
+  for (let index = 0; index < formElements.length; index += 1) {
+    const userInput = formElements[index];
+    userInput.value = '';
+    textArea.value = '';
+  }
+}
+
 window.onload = function () {
   createStateOptions();
 }
