@@ -36,6 +36,11 @@ header nav ul > li {
   padding: 0 1rem;
 }
 
+footer {
+  padding: 1rem;
+  background-color: azure;
+}
+
 @media screen and (max-width: 600px) {
   body {
     background-color: violet;
@@ -97,7 +102,12 @@ header nav ul > li {
     background-color: lightskyblue;
   }
 
-  .container {
-    flex-wrap: nowrap;
+  header {
+    padding: 0 2.5rem;
+    position: relative;
+  }
+  
+  header nav {
+    margin-left: auto;
   }
 }
