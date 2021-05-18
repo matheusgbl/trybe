@@ -140,6 +140,18 @@ let validationStrategies = {
   radio: validationRadio,
 }
 
+function validateInput(inputName) {
+  let inputType = inputs[inputName].type;
+  let input = document.querySelector(`[name=${inputName}]`);
+
+  if(inputType) {
+    let validationFunction = validationStrategies[inputType];
+    return validationFunction(input, inputName);
+  }
+
+  return validationStrategies.default(input, inputName);
+}
+
 window.onload = function () {
   createStateOptions();
 }
