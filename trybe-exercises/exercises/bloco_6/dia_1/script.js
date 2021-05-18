@@ -199,6 +199,29 @@ let renderStrategies = {
   select: selectRendering,
 }
 
+function renderData(){
+  let dataDiv = document.createElement('div');
+  dataDiv.className = 'data';
+
+  let form = document.querySelector('#cv-form');
+  form.prepend(dataDiv);
+
+  for(let name in inputs){
+    let inputType = inputs[name].type;
+    let input = document.querySelector(`[name=${name}]`);
+
+    let element;
+
+    if(renderStrategies[inputType]){
+      element = renderStrategies[inputType](input, dataDiv)
+    } else {
+      element = renderStrategies.default(input, dataDiv)
+    }
+
+    dataDiv.appendChild(element);
+  }
+}
+
 window.onload = function () {
   createStateOptions();
 }
