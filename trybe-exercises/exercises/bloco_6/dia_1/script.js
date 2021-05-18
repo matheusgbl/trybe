@@ -112,7 +112,7 @@ function getSelectedOption(select) {
   return select.options[select.selectedIndex];
 }
 
-function selectValidation(select, name) {
+function validationSelect(select, name) {
   let option = getSelectedOption(select);
   let validation = inputs[name];
 
@@ -123,7 +123,7 @@ function selectValidation(select, name) {
   return true;
 }
 
-function radioValidation(radio, name) {
+function validationRadio(radio, name) {
   let checked = document.querySelector(`[name=${name}]:checked`)
 
   if(checked === null) {
@@ -131,6 +131,13 @@ function radioValidation(radio, name) {
   }
 
   return true;
+}
+
+let validationStrategies = {
+  default: validationInput,
+  date: validationDate,
+  select: validationSelect,
+  radio: validationRadio,
 }
 
 window.onload = function () {
