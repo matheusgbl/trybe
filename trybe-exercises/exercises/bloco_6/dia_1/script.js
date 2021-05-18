@@ -173,6 +173,18 @@ function defaultRendering(input){
   return p;
 }
 
+function radioRendering(input){
+  let p = document.createElement('p');
+  let name = input.getAttribute('name');
+  let checked = document.querySelector(`[name=${name}]:checked`);
+
+  if(checked){
+    p.innerText = checked.value;
+  }
+
+  return p;
+}
+
 window.onload = function () {
   createStateOptions();
 }
