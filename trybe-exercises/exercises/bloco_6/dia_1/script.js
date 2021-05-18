@@ -193,6 +193,12 @@ function selectRendering(input){
   return p;
 }
 
+let renderStrategies = {
+  default: defaultRendering,
+  radio: radioRendering,
+  select: selectRendering,
+}
+
 window.onload = function () {
   createStateOptions();
 }
