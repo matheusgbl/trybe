@@ -75,8 +75,19 @@ header nav ul > li {
     flex-wrap: wrap;
   }
 
+  aside {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  aside h2 {
+    padding: 0 .8rem;
+  }
+
   p {
     font-size: 18px;
+    padding: .2rem;
   }
 
 }
