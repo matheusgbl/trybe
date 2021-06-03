@@ -42,4 +42,4 @@ const getStudents = (obj) => {
   return total;
 }
 
-console.log(getStudents(allLessons));
+const getValueByNumber = (obj, number) => Object.values(obj)[number];
