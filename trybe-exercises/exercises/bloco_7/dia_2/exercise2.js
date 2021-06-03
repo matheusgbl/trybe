@@ -25,6 +25,3 @@ const newTurn = (obj, key, value) => {
 newTurn(lesson2, 'turno', 'manhã');
 
 const listKeys = (obj) => Object.keys(obj);
-
-
-console.log(listKeys(lesson1));
