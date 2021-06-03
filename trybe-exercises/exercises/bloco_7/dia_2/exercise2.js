@@ -31,3 +31,15 @@ const objectLength = (obj) => Object.keys(obj).length;
 const objectValues = (obj) => Object.values(obj);
 
 const allLessons = Object.assign({}, {lesson1}, {lesson2}, {lesson3});
+
+const getStudents = (obj) => {
+  let total = 0;
+  const students = Object.keys(obj);
+  for (index in students) {
+    total += obj[students[index]].numeroEstudantes;
+  }
+
+  return total;
+}
+
+console.log(getStudents(allLessons));
