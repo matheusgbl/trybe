@@ -30,4 +30,4 @@ const objectLength = (obj) => Object.keys(obj).length;
 
 const objectValues = (obj) => Object.values(obj);
 
-console.log(objectValues(lesson1));
+const allLessons = Object.assign({}, {lesson1}, {lesson2}, {lesson3});
