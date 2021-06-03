@@ -28,4 +28,6 @@ const listKeys = (obj) => Object.keys(obj);
 
 const objectLength = (obj) => Object.keys(obj).length;
 
-console.log(objectLength(lesson1));
+const objectValues = (obj) => Object.values(obj);
+
+console.log(objectValues(lesson1));
