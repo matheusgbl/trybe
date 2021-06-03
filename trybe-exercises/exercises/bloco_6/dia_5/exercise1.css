@@ -1,0 +1,56 @@
+body {
+  font: 1.2rem Helvetica, aria, sans-serif;
+  margin: 0 .5rem;
+}
+h1 {
+  font-size: 1.8rem;
+  margin: .8rem 0 0 0;
+}
+h2 {
+  font-size: 1.4rem;
+  margin: .5rem 0 0 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+figure {
+  background: #333;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 0 1rem 0;
+  padding: .9rem;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 794px) {
+  body {
+    background-color: aqua;
+    margin: 25px 2rem;
+  }
+
+  figure {
+    float: left;
+    width: 40%;
+    margin-right: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  body {
+    background: purple;
+    margin: 25px 3.2rem;
+    max-width: 1120px;
+  }
+
+  figure {
+    width: 35%;
+    margin-right: 1.2rem;
+  }
+}
