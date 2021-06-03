@@ -25,3 +25,7 @@ const newTurn = (obj, key, value) => {
 newTurn(lesson2, 'turno', 'manhã');
 
 const listKeys = (obj) => Object.keys(obj);
+
+const objectLength = (obj) => Object.keys(obj).length;
+
+console.log(objectLength(lesson1));
