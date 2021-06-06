@@ -69,7 +69,7 @@ function authorUnique() {
   const unique = books.every((book) => {
     !books.some((someBook) => {
       (someBook.author.birthYear === book.author.birthYear)
-      && (someBook.author.name === book.author.name);
+      && (someBook.author.name !== book.author.name);
     });
   });
 
