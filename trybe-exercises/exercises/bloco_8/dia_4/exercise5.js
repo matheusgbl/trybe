@@ -8,7 +8,7 @@ const names = [
 
 function containsA() {
   return names.reduce((prev, curr) =>
-    prev + curr.split('').reduceRight((accumulator, current) => {
+    prev + curr.split('').reduce((accumulator, current) => {
       if (current === 'a' || current === 'A') return accumulator + 1;
       return accumulator;
     }, 0), 0);
