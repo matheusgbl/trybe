@@ -15,6 +15,8 @@
 # Algumas das skills que serão desenvolvidas ao longo do curso
 
 - HTML, CSS e JavaScript 💻;
+- React 🖤;
+- NodeJS 🔋;
 - Git e Github :octocat: ;
 - Soft Skills 😎 ;
 - Metodologias Ágeis 🏃 ;
