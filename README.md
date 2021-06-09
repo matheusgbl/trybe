@@ -17,6 +17,7 @@
 - HTML, CSS e JavaScript 💻;
 - React 🖤;
 - NodeJS 🔋;
+- Python 🐍;
 - Git e Github :octocat: ;
 - Soft Skills 😎 ;
 - Metodologias Ágeis 🏃 ;
