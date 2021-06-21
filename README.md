@@ -11,6 +11,7 @@
 - [JS Unit Tests](https://github.com/tryber/sd-012-project-js-unit-tests/pull/2)
 - [Zoo Functions](https://github.com/tryber/sd-012-project-zoo-functions/pull/36)
 - [Shopping Cart](https://github.com/tryber/sd-012-project-shopping-cart/pull/71)
+- [Jest Assíncrono e Mocking](https://github.com/tryber/sd-012-project-jest/pull/4)
 
 # Algumas das skills que serão desenvolvidas ao longo do curso:
 
