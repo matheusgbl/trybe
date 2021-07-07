@@ -13,6 +13,11 @@
 - [Shopping Cart](https://github.com/tryber/sd-012-project-shopping-cart/pull/71)
 - [Jest Assíncrono e Mocking](https://github.com/tryber/sd-012-project-jest/pull/4)
 
+### REACT:
+- [Movie Card Library](https://github.com/tryber/sd-012-project-movie-cards-library/pull/5)
+- [Movie Card Library Stateful](https://github.com/tryber/sd-012-project-movie-cards-library-stateful/pull/91)
+- [Movie Card Library CRUD](https://github.com/tryber/sd-012-project-movie-card-library-crud/pull/6)
+
 # Algumas das skills que serão desenvolvidas ao longo do curso:
 
 - HTML, CSS e JavaScript 💻;
